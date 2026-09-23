@@ -9,6 +9,54 @@ package modelo;
  * @author Windows 11
  */
 public class Personaje {
+    protected String nombre;
+    protected int constitucion;
+
+public Personaje (String nombre, int constitucion) {
+    this.nombre = nombre;
+    this.constitucion = constitucion;
+}
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getConstitucion() {
+        return constitucion;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setConstitucion(int constitucion) {
+        this.constitucion = constitucion;
+    }
+
+    public String realizarAtaque(){
+  return "realiza un ataque sin armas, solo con puñitos";
+  }   
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
 }
