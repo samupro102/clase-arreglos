@@ -3,7 +3,8 @@
  */
 
 package com.mycompany.arreglos;
-
+import controlador.Controlador;
+import vista.Vista;
 /**
  *
  * @author Windows 11
